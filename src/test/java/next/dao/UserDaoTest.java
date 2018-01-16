@@ -34,11 +34,11 @@ public class UserDaoTest {
         actual = userDao.findByUserId(expected.getUserId());
         assertEquals(expected, actual);
     }
-
-    @Test
-    public void findAll() throws Exception {
-        UserDao userDao = new UserDao();
-        List<User> users = userDao.findAll();
-        assertEquals(1, users.size());
-    }
+//
+//    @Test
+//    public void findAll() throws Exception {
+//        UserDao userDao = new UserDao();
+//        List<User> users = userDao.findAll();
+//        assertEquals(1, users.size());
+//    }
 }
